@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Kelompok 8 SDGS TI_A '),
+      home: MyHomePage(title: 'Kelompok 8 SDGS'),
     );
   }
 }
