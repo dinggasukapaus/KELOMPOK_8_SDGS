@@ -4,7 +4,6 @@ void main() {
   runApp(MyApp());
 }
 
-//init
 //test commit
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Kelompok 8 SDGS TI_A '),
+      home: MyHomePage(title: ''),
     );
   }
 }
@@ -75,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Text('Kelompok 8 SDGS'),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -97,11 +96,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'dingga apris rahmat kurniawan  : 182410102006',
-            ),
-            Text('sadli'),
-            Text('saifur rifqi ali  : '),
+            Text('Dingga Apris Rahmat Kurniawan  : 182410102006'),
+            Text('Saifur Rifqi Ali               : 182410102033'),
+            Text('Mohammad Sadli Mushtafa        : 182410102078'),
           ],
         ),
       ),
