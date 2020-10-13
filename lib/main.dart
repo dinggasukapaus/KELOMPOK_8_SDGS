@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'dingga apris rahmat kurniawan  : 182410102006',
             ),
             Text('sadli'),
-            Text('ali'),
+            Text('saifur rifqi ali  : '),
           ],
         ),
       ),
