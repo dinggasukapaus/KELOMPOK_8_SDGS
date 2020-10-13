@@ -1,17 +1,18 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //Menginport Package
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp()); //Metode awal untuk menjalankan flutter
 }
 
+//Bismillah
 //test commit
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false, //menghapus banner Debug
+      title: 'Flutter Demo', //Title Flutter
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -22,9 +23,9 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue, //pemberian warna Bar
       ),
-      home: MyHomePage(title: 'Kelompok 8 SDGS'),
+      home: MyHomePage(title: 'Kelompok 8 SDGS'), //Title pada Bar
     );
   }
 }
@@ -76,6 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
+        // Mengatur Posisi Body
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
@@ -93,7 +95,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // center the children vertically; the main axis here is the vertical
           // axis because Columns are vertical (the cross axis would be
           // horizontal).
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment:
+              MainAxisAlignment.center, //meletakkan posisi Text ke Center
           children: <Widget>[
             Text('Dingga Apris Rahmat Kurniawan  : 182410102006'),
             Text('Saifur Rifqi Ali               : 182410102033'),
@@ -105,6 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
+        //icon +
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
