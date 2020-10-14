@@ -36,9 +36,10 @@ class MyApp extends StatelessWidget {
           body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text('Saifur Rifqi Ali               : 182410102033'),
+                Text(
+                  'Saifur Rifqi Ali               : 182410102033',
+                ),
                 Text('Mohammad Sadli Mushtafa        : 182410102078'),
                 Text('Dingga Apris Rahmat Kurniawan  : 182410102006'),
               ],
